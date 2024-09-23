@@ -5,7 +5,7 @@ import { checkValidData } from '../utils/validate';
 import { auth } from '../utils/firebase';
 import { useDispatch } from 'react-redux';
 import { addUser } from '../utils/userSlice';
-import { BG_IMAGE_URL, PHOTO_URL, USER_AVATAR } from '../utils/constants';
+import { BG_IMAGE_URL, USER_AVATAR } from '../utils/constants';
 
 const Login = () => {
   const dispatch = useDispatch();
