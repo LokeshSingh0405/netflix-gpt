@@ -25,12 +25,14 @@ const Header = () => {
           displayName: displayName,
           photoURL: photoURL
         }))
+        
         navigate("/browse");
       } else {
         dispatch(removeUser())
         navigate("/")
       }
     });
+    
 
 
 

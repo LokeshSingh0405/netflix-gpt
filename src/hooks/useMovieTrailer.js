@@ -20,7 +20,7 @@ const useMovieTrailer = (movieId) => {
 
     useEffect(() => {
         !nowPlayingMovies && getMovieVideos();
-    }, [getMovieVideos])
+    }, [getMovieVideos, nowPlayingMovies])
 }
 
 export default useMovieTrailer;
